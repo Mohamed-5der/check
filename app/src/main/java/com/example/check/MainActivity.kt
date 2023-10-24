@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
             if (et.equals("")){
                 val toast = Toast.makeText(applicationContext, "enter to text", Toast.LENGTH_LONG)
                 toast.show()
+
+
             }
             else if (et.equals("welcome"))
             {
